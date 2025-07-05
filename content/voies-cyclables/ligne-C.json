@@ -336,7 +336,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#87",
-        "line": "G",
+        "line": "C",
         "name": "G#87",
         "status": "done",
         "doneAt": "01/01/2000",
@@ -400,7 +400,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#89",
-        "line": "G",
+        "line": "C",
         "name": "G#89",
         "status": "done",
         "doneAt": "01/01/2000",
@@ -996,7 +996,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#160",
-        "line": "G",
+        "line": "C",
         "name": "G#160",
         "status": "unknown",
         "doneAt": "01/01/2000",
@@ -1084,7 +1084,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#170",
-        "line": "G",
+        "line": "C",
         "name": "G#170",
         "status": "postponed",
         "doneAt": "01/01/2000",

@@ -62,6 +62,7 @@ export type CompteurFeature = {
   type: 'Feature';
   properties: {
     type: 'compteur-velo' | 'compteur-voiture';
+    idPdc: Number;
     line?: string;
     name: string;
     link?: string;

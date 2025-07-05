@@ -680,6 +680,7 @@ export const useMap = () => {
       properties: {
         type,
         name: counter.name,
+        idPdc: counter.idPdc,
         link: counter.path,
         counts: counter.counts
       },
@@ -758,6 +759,7 @@ export const useMap = () => {
     const layers = [
       {
         id: 'dangers',
+        minHeight: "50px",
         isClicked: () => {
           if (!map.getLayer('dangers')) {
             return false;
@@ -774,6 +776,7 @@ export const useMap = () => {
       },
       {
         id: 'perspectives',
+        minHeight: "50px",
         isClicked: () => {
           if (!map.getLayer('perspectives')) {
             return false;
@@ -797,6 +800,7 @@ export const useMap = () => {
       },
       {
         id: 'linestring', // not really a layer id. gather all linestrings.
+        minHeight: "313px",
         isClicked: () => {
           const mapFeature = map.queryRenderedFeatures(clickEvent.point, {
             filter: [
@@ -839,6 +843,7 @@ export const useMap = () => {
       },
       {
         id: 'compteurs',
+        minHeight: "123px",
         isClicked: () => {
           if (!map.getLayer('compteurs')) {
             return false;
@@ -848,7 +853,7 @@ export const useMap = () => {
         },
         getTooltipProps: () => {
           const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['compteurs'] })[0];
-          const feature = features.find(f => f.properties.name === mapFeature.properties.name);
+          const feature = features.find(f => f.properties.idPdc === mapFeature.properties.idPdc);
           return { feature };
         },
         component: CounterTooltip
@@ -862,7 +867,7 @@ export const useMap = () => {
 
     new Popup({ closeButton: false, closeOnClick: true })
       .setLngLat(clickEvent.lngLat)
-      .setHTML(`<div id="${clickedLayer.id}-tooltip-content"></div>`)
+      .setHTML(`<div id="${clickedLayer.id}-tooltip-content" style="min-height: ${clickedLayer.minHeight}"></div>`)
       .addTo(map);
 
     const props = clickedLayer.getTooltipProps();

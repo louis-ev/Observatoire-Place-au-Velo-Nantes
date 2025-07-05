@@ -7,7 +7,7 @@
       <div>{{ title }}</div>
     </div>
     <div class="divide-y">
-      <div class="py-1 flex items-center justify-around bg-zinc-100">
+      <div class="py-1 flex items-center justify-between bg-zinc-100">
         <div class="text-base text-black w-8">
           <Icon v-if="!isFirstMonth" name="mdi:chevron-left" class="cursor-pointer" @click="changeMonth(-1)" />
         </div>

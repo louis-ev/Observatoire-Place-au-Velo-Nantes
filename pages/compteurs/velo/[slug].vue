@@ -32,7 +32,7 @@
     </template> -->
 
     <h2>Source des données</h2>
-    <p>Les données proviennent de <a href="https://data.eco-counter.com/ParcPublic/?id=3902#" target="_blank">data.eco-counter.com</a>.</p>
+    <p>Les données proviennent de data.nantesmetropole.fr :<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-historique-jour/information/" target="_blank">données 2014-2019</a> : cumule par mois des comptages ajustés pour 18 boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole/information/" target="_blank">données à partir de 2020</a> : cumule par mois des comptages pour 66 boucles.<br/>- <a href="https://data.nantesmetropole.fr/explore/dataset/244400404_comptages-velo-nantes-metropole-boucles-comptage/information/" target="_blank">boucles de comptage.</a></p>
   </ContentFrame>
 </template>
 

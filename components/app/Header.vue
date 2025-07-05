@@ -166,7 +166,7 @@
           </Popover>
 
           <!-- Compteurs -->
-          <!-- <Popover v-slot="{ open }" class="relative">
+          <Popover v-slot="{ open }" class="relative">
             <PopoverButton
               :class="[
                 open ? 'text-gray-900' : 'text-gray-500',
@@ -201,7 +201,7 @@
                     >
                       Compteurs vélo
                     </NuxtLink>
-                    <NuxtLink
+                    <!-- <NuxtLink
                       to="/compteurs/voiture"
                       class="text-base font-medium text-gray-500 hover:text-lvv-blue-600"
                       @click="close()"
@@ -214,12 +214,12 @@
                       @click="close()"
                     >
                       Comparaison voiture/vélo
-                    </NuxtLink>
+                    </NuxtLink> -->
                   </div>
                 </div>
               </PopoverPanel>
             </transition>
-          </Popover> -->
+          </Popover>
         </PopoverGroup>
         <!-- <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
           <NuxtLink
@@ -288,7 +288,7 @@
                 </NuxtLink>
 
                 <!-- Compteurs -->
-                <!-- <hr class="h-px bg-gray-200 border-0" />
+                <hr class="h-px bg-gray-200 border-0" />
 
                 <NuxtLink
                   to="/compteurs/velo"
@@ -297,7 +297,7 @@
                 >
                   <span class="ml-3 text-base font-medium text-gray-900"> Compteurs vélo </span>
                 </NuxtLink>
-                <NuxtLink
+                <!-- <NuxtLink
                   to="/compteurs/voiture"
                   class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   @click="close()"

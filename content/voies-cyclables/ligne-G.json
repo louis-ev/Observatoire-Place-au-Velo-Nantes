@@ -162,45 +162,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "G#35",
-        "line": "G",
-        "name": "G#35",
-        "status": "unknown",
-        "doneAt": "01/01/2000",
-        "type": "voie-verte",
-        "quality": "not-rated-yet",
-        "infrastructure": "",
-        "link": ""
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -1.52758000475788,
-            47.21369019339005,
-            0
-          ],
-          [
-            -1.527261008917577,
-            47.21373912179058,
-            0
-          ],
-          [
-            -1.527123120393014,
-            47.21377267266831,
-            0
-          ],
-          [
-            -1.527213674051325,
-            47.2139124677621,
-            0
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "G#36-mail-pablo-picasso",
         "line": "G",
         "name": "Mail Pablo Picasso",
@@ -1110,7 +1071,7 @@
       "type": "Feature",
       "properties": {
         "id": "H#156",
-        "line": "H",
+        "line": "G",
         "name": "H#156",
         "status": "unknown",
         "doneAt": "01/01/2000",

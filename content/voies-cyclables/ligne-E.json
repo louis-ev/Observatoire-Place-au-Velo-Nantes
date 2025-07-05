@@ -915,7 +915,7 @@
       "type": "Feature",
       "properties": {
         "id": "D#44",
-        "line": "D",
+        "line": "E",
         "name": "D#44",
         "status": "unknown",
         "doneAt": "01/01/2000",
@@ -1873,7 +1873,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#169",
-        "line": "G",
+        "line": "E",
         "name": "G#169",
         "status": "postponed",
         "doneAt": "01/01/2000",
@@ -1922,7 +1922,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#170",
-        "line": "G",
+        "line": "E",
         "name": "G#170",
         "status": "postponed",
         "doneAt": "01/01/2000",
@@ -1956,7 +1956,7 @@
       "type": "Feature",
       "properties": {
         "id": "D#176",
-        "line": "D",
+        "line": "E",
         "name": "D#176",
         "status": "unknown",
         "doneAt": "01/01/2000",
@@ -2000,7 +2000,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#179",
-        "line": "G",
+        "line": "E",
         "name": "G#179",
         "status": "unknown",
         "doneAt": "01/01/2000",

@@ -113,7 +113,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#21",
-        "line": "G",
+        "line": "F",
         "name": "G#21",
         "status": "wip",
         "doneAt": "01/01/2000",
@@ -207,7 +207,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#31",
-        "line": "G",
+        "line": "F",
         "name": "G#31",
         "status": "wip",
         "doneAt": "01/01/2000",
@@ -709,7 +709,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#65",
-        "line": "G",
+        "line": "F",
         "name": "G#65",
         "status": "wip",
         "doneAt": "01/01/2000",
@@ -753,7 +753,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#100",
-        "line": "G",
+        "line": "F",
         "name": "G#100",
         "status": "wip",
         "doneAt": "01/01/2000",
@@ -817,7 +817,7 @@
       "type": "Feature",
       "properties": {
         "id": "H#110",
-        "line": "H",
+        "line": "F",
         "name": "H#110",
         "status": "unknown",
         "doneAt": "01/01/2000",
@@ -1028,7 +1028,7 @@
       "type": "Feature",
       "properties": {
         "id": "H#154",
-        "line": "H",
+        "line": "F",
         "name": "H#154",
         "status": "unknown",
         "doneAt": "01/01/2000",
@@ -1082,7 +1082,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#155",
-        "line": "G",
+        "line": "F",
         "name": "G#155",
         "status": "unknown",
         "doneAt": "01/01/2000",

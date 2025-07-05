@@ -9,7 +9,10 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "test": "vitest",
-    "fix-voies": "node scripts/fix-voies-cyclables.js"
+    "fix-voies": "node scripts/fix-voies-cyclables.js",
+    "update-compteurs": "node scripts/update-compteurs.js",
+    "update-compteurs-old": "node scripts/update-compteurs-old.js",
+    "create-compteurs": "node scripts/create-compteurs-file.js"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.23",

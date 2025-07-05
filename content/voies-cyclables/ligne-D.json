@@ -662,7 +662,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#68",
-        "line": "G",
+        "line": "D",
         "name": "G#68",
         "status": "unknown",
         "doneAt": "01/01/2000",
@@ -736,7 +736,7 @@
       "type": "Feature",
       "properties": {
         "id": "G#75",
-        "line": "G",
+        "line": "D",
         "name": "G#75",
         "status": "unknown",
         "doneAt": "01/01/2000",
@@ -878,7 +878,7 @@
       "type": "Feature",
       "properties": {
         "id": "I#119",
-        "line": "I",
+        "line": "D",
         "name": "I#119",
         "status": "unknown",
         "doneAt": "01/01/2000",
